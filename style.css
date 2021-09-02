@@ -1,0 +1,8 @@
+.display-style{
+  border: 5px solid #b7e2e2;
+border-radius: 15px;
+
+}
+#spinner{
+    display: none;
+}
