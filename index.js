@@ -55,7 +55,7 @@ displayNoneBlock('container', true);
 
 }
  
-// common function for Spinner, not-Found Result, hide previous result, hied result count -------------------
+// common function for Spinner, not-Found Result, hide previous result, hide result count -------------------
 const displayNoneBlock=(idName, Style)=>{
   if(Style === true){
     document.getElementById(idName).style.display='block';
@@ -64,4 +64,4 @@ const displayNoneBlock=(idName, Style)=>{
   }
 }
 
-// Note: if you want to see not-result container please enter 000000000000000000000000000000000000000 or any digit
+// Note: if you want to see not-Found result container please enter 000000000000000000000000000000000000000 or any digit
